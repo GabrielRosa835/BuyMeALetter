@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>BuyALetter - Início</title>
+
+   <script src="https://kit.fontawesome.com/501538f1e1.js" crossorigin="anonymous"></script>
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./classes.css">
+   <link rel="stylesheet" href="./index.css">
+</head>
+
+<body class="max-size flex-column normal-font">
+
+<header class="flex-row max-width ai-center jc-space-between">
+   <h1 id="inicio" class="styled-font">BuyALetter</h1>
+   <nav id="header_nav" class="max-height">
+      <ul id="header_nav_list" class="max-height flex-row ai-center">
+         <li> <a class="nav_link" href="#inicio">Início</a> </li>
+         <li> <a class="nav_link" href="#sobre">Sobre</a> </li>
+         <li> <a class="nav_link" href="#produtos">Produtos</a> </li>
+         <li> <a class="nav_link" href="#contato">Contato</a> </li>
+         <li> <a class="nav_link" href="#blog">Blog</a> </li>
+      </ul>
+   </nav>
+</header>
+
+<section id="carousel_section">
+   <div id="carousel" class="carousel slide max-height" data-ride="carousel">
+      <div class="carousel-inner max-height" role="listbox">
+         <div class="carousel-item active max-height" data-interval="2000">
+            <div class="d-flex flex-row align-items-center justify-content-center max-height">
+               <p class="special-font">A B C D E F G H I</p>
+            </div>
+         </div>
+         <div class="carousel-item max-height" data-interval="2000">
+            <div class="d-flex flex-row align-items-center justify-content-center max-height">
+               <p class="special-font">J K L M N P Q R S</p>
+            </div>
+         </div>
+         <div class="carousel-item max-height" data-interval="2000">
+            <div class="d-flex flex-row align-items-center justify-content-center max-height">
+               <p class="special-font">T U V W X Y Z</p>
+            </div>
+         </div>
+      </div>
+
+      <a 
+         class="carousel-control-prev carousel_button" 
+         data-target="#carousel" 
+         data-slide="prev"
+      > <span class="carousel-control-prev-icon carousel_button_icon"></span> </a>
+      <a 
+         class="carousel-control-next carousel_button" 
+         data-target="#carousel" 
+         data-slide="next"
+      > <span class="carousel-control-next-icon carousel_button_icon"></span> </a>
+   </div>
+</section>
+
+<section id="banner_section" class="flex-row">
+   <div id="banner_section_body">
+      <h2 id="sobre" class="styled-font">Ideia </h2>
+      <p id="banner_section_text" class="section_text">
+         Ajude a nossa caridade [insira instituição aqui] comprando uma de nossas letras!
+         Todo dinheiro arrecadado por este site irá diretamente para [insira área de atuação da caridade].
+         <br><sub>* As letras não são um produto de verdade, servem apenas para enfeitar a doação.</sub>
+      </p>
+      <a href="#saiba_mais">Saiba mais!</a>
+   </div>
+   <img id="banner_img" src="./assets/light-bulb.png" alt="banner">
+</section>
+
+<section id="featured_section" class="flex-column">
+   <div id="featured_introduction" class="flex-column">
+      <h2 id="featured_section_title" class="styled-font">Destaques!</h2>
+      <p id="featured_section_text" class="section_text">
+         Veja nossas letras de destaque! As que são (por algum motivo) mais escolhidas dentre todas as outras!
+      </p>
+      <div class="flex-row jc-space-aroud">
+         <a class="card_container" href="#">
+            <div class="card_body flex-column centered-content">
+               <span class="max-width ta-center special-font">B</span>
+            </div>
+            <figcaption class="card_name max-width ta-center">B</figcaption>
+         </a>
+         <a class="card_container" href="#">
+            <div class="card_body flex-column centered-content">
+               <span class="max-width ta-center special-font">K</span>
+            </div>
+            <figcaption class="card_name max-width ta-center">K</figcaption>
+         </a><a class="card_container" href="#">
+            <div class="card_body flex-column centered-content">
+               <span class="max-width ta-center special-font">M</span>
+            </div>
+            <figcaption class="card_name max-width ta-center">M</figcaption>
+         </a><a class="card_container" href="#">
+            <div class="card_body flex-column centered-content">
+               <span class="max-width ta-center special-font">T</span>
+            </div>
+            <figcaption class="card_name max-width ta-center">T</figcaption>
+         </a>
+      </div>
+      <a id="featured_link" class="as-center" href="#saiba_mais">Saiba mais!</a>
+   </div>
+</section>
+
+<section id="galery_section">
+   <h2 id="produtos" class="styled-font">Todas as letras</h2>
+   <p class="section_text">
+      Nosso acervo completo de letras! Para que nenhuma fique se sentindo de fora.
+   </p>
+   <ul id="card_list" class="flex-row flex-wrap jc-space-between">
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">A</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">A</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">B</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">B</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">C</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">C</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">D</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">D</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">E</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">E</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">F</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">F</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">G</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">G</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">H</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">H</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">I</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">I</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">J</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">J</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">K</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">K</figcaption>
+      </a><a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">L</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">L</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">M</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">M</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">N</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">N</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">O</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">O</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">P</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">P</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">Q</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">Q</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">R</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">R</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">S</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">S</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">T</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">T</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">U</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">U</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">V</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">V</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">W</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">W</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">X</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">X</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">Y</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">Y</figcaption>
+      </a>
+      <a class="card_container" href="#">
+         <div class="card_body flex-column centered-content">
+            <span class="max-width ta-center special-font">Z</span>
+         </div>
+         <figcaption class="card_name max-width ta-center">Z</figcaption>
+      </a>
+   </ul>
+</section>
+
+<section class="contact_section">
+   <h2 class="contact">Contato</h2>
+   <div class="flex-row">
+      <strong>Email:</strong>
+      <p>buyaletter@email.com</p>
+   </div>
+   <div class="flex-row">
+      <strong>Endereço:</strong>
+      <p>Rua Alfabeto, 123</p>
+   </div>
+   <div class="flex-row">
+      <strong>Telefone:</strong>
+      <p>(15) 98765-4321</p>
+   </div>
+</section>
+
+<footer id="part1" class="flex-column">
+   <div class="flex-row jc-space-aroud">
+      <div id="social_medias" class=" flex-row ai-center jc-space-aroud">
+         <a id="facebook_card" class="social_media_card flex centered-content" href="http://facebook.com" target="_blank">
+            <span class="fa-brands fa-facebook-f"></span>
+         </a>
+         <a id="instagram_card" class="social_media_card flex centered-content" href="http://instagram.com" target="_blank">
+            <span class="fa-brands fa-instagram"></span>
+         </a>
+         <a id="youtube_card" class="social_media_card flex centered-content" href="http://youtube.com" target="_blank">
+            <span class="fa-brands fa-youtube"></span>
+         </a>
+      </div>
+      <nav>
+         <ul id="footer_nav_list" class="max-height flex-row ai-center">
+            <li> <a class="nav_link" href="#inicio">Início</a> </li>
+            <li> <a class="nav_link" href="#sobre">Sobre</a> </li>
+            <li> <a class="nav_link" href="#produtos">Produtos</a> </li>
+            <li> <a class="nav_link" href="#contato">Contato</a> </li>
+            <li> <a class="nav_link" href="#blog">Blog</a> </li>
+         </ul>
+      </nav>
+   </div>
+   <p id="footer_text" class="ta-center">Todos os direitos reservados &copy; 2024</p>
+</footer>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>
